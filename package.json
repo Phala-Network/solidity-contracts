@@ -5,8 +5,13 @@
   "license": "MIT",
   "files": [
     "contracts/MetaTransaction.sol",
-    "contracts/PhatRollupAnchor.sol"
+    "contracts/PhatRollupAnchor.sol",
+    "contracts/VRFOracle.sol"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phala-Network/solidity-contracts.git"
+  },
   "keywords": [
     "solidity",
     "ethereum",
@@ -39,6 +44,7 @@
     "typescript": ">=4.5.0"
   },
   "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
     "@openzeppelin/contracts": "^4.8.2",
     "dotenv": "^16.0.3"
   }
